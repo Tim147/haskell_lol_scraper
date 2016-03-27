@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0046)https://wiki.haskell.org/WxHaskell/Short_guide -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" class="client-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="generator" content="MediaWiki 1.19.14+dfsg-1">
+<link rel="shortcut icon" href="https://wiki.haskell.org/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://wiki.haskell.org/opensearch_desc.php" title="HaskellWiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.haskell.org/api.php?action=rsd">
+<link rel="copyright" href="https://wiki.haskell.org/HaskellWiki:Copyrights">
+<link rel="alternate" type="application/atom+xml" title="HaskellWiki Atom feed" href="https://wiki.haskell.org/index.php?title=Special:RecentChanges&amp;feed=atom">		<title>WxHaskell/Short guide - HaskellWiki</title>
+		<style type="text/css" media="screen, projection">/*<![CDATA[*/
+			@import "/wikistatic/skins//common/shared.css?303";
+			@import "/wikistatic/skins//hawiki/main.css?303";
+		/*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="./WxHaskell_Short guide - HaskellWiki_files/commonPrint.css">
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/wikistatic/skins//hawiki/IE50Fixes.css?303";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/wikistatic/skins//hawiki/IE55Fixes.css?303";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/wikistatic/skins//hawiki/IE60Fixes.css?303";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/wikistatic/skins//hawiki/IE70Fixes.css?303";</style><![endif]-->
+		<!--[if lte IE 7]><script type="text/javascript" src="/wikistatic/skins//hawiki/IEFixes.js?303"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+                                                <script type="text/javascript" async="" src="./WxHaskell_Short guide - HaskellWiki_files/ga.js"></script><script type="text/javascript">
+                        var isMSIE55 = (window.showModalDialog && window.clipboardData && window.createPopup); /*alert("test: " + isMSIE55);*/</script>
+
+		<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"WxHaskell/Short_guide","wgTitle":"WxHaskell/Short guide","wgCurRevisionId":25425,"wgArticleId":4075,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["WxHaskell"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"WxHaskell/Short_guide","wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script>
+		<script type="text/javascript" src="./WxHaskell_Short guide - HaskellWiki_files/wikibits.js"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+<script src="./WxHaskell_Short guide - HaskellWiki_files/load.php"></script><script src="./WxHaskell_Short guide - HaskellWiki_files/load(1).php"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"WxHaskell/Short_guide","wgTitle":"WxHaskell/Short guide","wgCurRevisionId":25425,"wgArticleId":4075,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["WxHaskell"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"WxHaskell/Short_guide","wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":1,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"hawiki","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: wikidb_haskell:resourceloader:filter:minify-js:7:befcdb5e3b24ff89f900613de9ed4ea3 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script><script type="text/javascript" src="./WxHaskell_Short guide - HaskellWiki_files/load(2).php"></script><style type="text/css" media="all">.js-messagebox{margin:1em 5%;padding:0.5em 2.5%;border:1px solid #ccc;background-color:#fcfcfc;font-size:0.8em}.js-messagebox .js-messagebox-group{margin:1px;padding:0.5em 2.5%;border-bottom:1px solid #ddd}.js-messagebox .js-messagebox-group:last-child{border-bottom:thin none transparent}
+
+/* cache key: wikidb_haskell:resourceloader:filter:minify-css:7:8b08bdc91c52a9ffba396dccfb5b473c */
+
+.mw-collapsible-toggle{float:right} li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+
+/* cache key: wikidb_haskell:resourceloader:filter:minify-css:7:4250852ed2349a0d4d0fc6509a3e7d4c */</style><meta name="ResourceLoaderDynamicStyles">	</head>
+<body class="mediawiki ltr ns-0 ns-subject page-WxHaskell_Short_guide skin-hawiki">
+   <div id="topbar" class="noprint">
+	<div class="portlet noprint" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul><li><a class="homebutton" href="https://wiki.haskell.org/Haskell">Home</a></li>
+				<li id="pt-login"><a href="https://wiki.haskell.org/index.php?title=Special:UserLogin&amp;returnto=WxHaskell%2FShort+guide">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+        	  <div id="p-search">
+	    <div id="searchBody" class="pBody">
+	       <form action="https://wiki.haskell.org/index.php" id="searchform"><div>
+	          <input type="hidden" name="title" value="Special:Search">
+	          <input id="searchInput" name="search" type="text" value="">
+				<input type="submit" name="go" class="searchButton" id="searchGoButton" value="Go">&nbsp;
+				<input type="submit" name="fulltext" class="searchButton" id="mw-searchButton" value="Search">
+
+	         </div></form>
+	    </div>
+	  </div>
+   </div>
+	<div id="globalWrapper">
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/wikistatic/haskellwiki_logo.png);" href="https://wiki.haskell.org/Haskell"></a>
+	</div>
+	<div id="column-content">
+        <div id="notice-area" class="noprint">
+        <!-- ?php $this->data['sitenotice'] = 'This is a test instance.  Do not edit, your changes will be lost.'; ? -->
+			        </div>
+        <div id="content-wrapper">
+	<div id="p-cactions" class="portlet noprint">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="./WxHaskell_Short guide - HaskellWiki_files/WxHaskell_Short guide - HaskellWiki.html">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="https://wiki.haskell.org/index.php?title=Talk:WxHaskell/Short_guide&amp;action=edit&amp;redlink=1">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="https://wiki.haskell.org/index.php?title=WxHaskell/Short_guide&amp;action=edit">View source</a></li>
+				 <li id="ca-history"><a href="https://wiki.haskell.org/index.php?title=WxHaskell/Short_guide&amp;action=history">History</a></li>			</ul>
+		</div>
+	</div>
+                        <div id="content"><div id="mw-js-message" class="js-messagebox" style="display: none;"></div>
+		<a name="top" id="top"></a>
+                        <h1 id="firstHeading" class="firstHeading">WxHaskell/Short guide</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From HaskellWiki</h3>
+			<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.haskell.org/WxHaskell" title="WxHaskell">WxHaskell</a></span></div>
+			<div id="jump-to-nav">Jump to: <a href="https://wiki.haskell.org/WxHaskell/Short_guide#column-one">navigation</a>, <a href="https://wiki.haskell.org/WxHaskell/Short_guide#searchInput">search</a></div>			<!-- start content -->
+			<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="https://wiki.haskell.org/WxHaskell/Short_guide#" class="internal" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="https://wiki.haskell.org/WxHaskell/Short_guide#A_Short_Guide"><span class="tocnumber">1</span> <span class="toctext">A Short Guide</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="https://wiki.haskell.org/WxHaskell/Short_guide#Widgets"><span class="tocnumber">1.1</span> <span class="toctext">Widgets</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="https://wiki.haskell.org/WxHaskell/Short_guide#Layout"><span class="tocnumber">1.2</span> <span class="toctext">Layout</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="https://wiki.haskell.org/WxHaskell/Short_guide#Scrolled_windows"><span class="tocnumber">1.2.1</span> <span class="toctext">Scrolled windows</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="https://wiki.haskell.org/WxHaskell/Short_guide#XRC"><span class="tocnumber">1.2.2</span> <span class="toctext">XRC</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="https://wiki.haskell.org/WxHaskell/Short_guide#Events"><span class="tocnumber">1.3</span> <span class="toctext">Events</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="https://wiki.haskell.org/WxHaskell/Short_guide#Idle_Event"><span class="tocnumber">1.3.1</span> <span class="toctext">Idle Event</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></tbody></table>
+<h2> <span class="mw-headline" id="A_Short_Guide">1  A Short Guide </span></h2>
+<p>It is helpful to a get a grip on three basic concepts: Widgets, Layout and Events.
+</p>
+<h3> <span class="mw-headline" id="Widgets">1.1  Widgets </span></h3>
+<p>Widgets are the basic components of any GUIs.  They include buttons, radio boxes, frames and what not.  There are essentially two kinds of widgets: windows and controls.  Windows are widgets that contain other widgets.  Note: what you might normally think of as a window, i.e. that big thing with the close, minimise, maximise buttons on your OS in wxHaskell is a special kind of window called a "frame".
+</p><p>We define windows by calling some function (for example, <i>frame</i>) with a list of attributes.  Here is a example which creates a frame with the title bar "Hello!":
+</p>
+<pre>hello
+  = do f    &lt;- frame    [text&nbsp;:= "Hello!"]
+</pre>
+<p>The more interesting widgets are controls such a buttons and check boxes.   We define controls almost the same way as windows, by calling some function (for example, <i>button</i>) with a window and a list of attributes:
+</p>
+<pre>hello
+  = do f    &lt;- frame    [text&nbsp;:= "Hello!"]
+       quit &lt;- button f [text&nbsp;:= "Quit"]
+</pre>
+<p>The relevant documentation:
+</p>
+<pre> * <a rel="nofollow" class="external free" href="http://wxhaskell.sourceforge.net/doc/Graphics-UI-WX-Controls.html">http://wxhaskell.sourceforge.net/doc/Graphics-UI-WX-Controls.html</a>
+ * <a rel="nofollow" class="external free" href="http://wxhaskell.sourceforge.net/doc/Graphics-UI-WX-Window.html">http://wxhaskell.sourceforge.net/doc/Graphics-UI-WX-Window.html</a>
+</pre>
+<h3> <span class="mw-headline" id="Layout">1.2  Layout </span></h3>
+<p><a href="https://wiki.haskell.org/WxHaskell/Layout" title="WxHaskell/Layout"> Layout</a> means telling wxHaskell how to arrange your widgets with respect to each other.  It is something you would normally do after you have defined all your widgets.
+</p><p>We won't go into much detail here because the Haddock-generated documentation is very helpful here, but here is a trivial example of layout where all we do is stick the quit button in the frame.  Notice how layout is just an attribute of the frame widget.
+</p>
+<pre>hello
+  = do f    &lt;- frame    [text&nbsp;:= "Hello!"]
+       quit &lt;- button f [text&nbsp;:= "Quit"]
+       set f [layout&nbsp;:= widget quit]
+</pre>
+<pre> * <a rel="nofollow" class="external free" href="http://wxhaskell.sourceforge.net/doc/Graphics-UI-WX-Layout.html">http://wxhaskell.sourceforge.net/doc/Graphics-UI-WX-Layout.html</a>
+</pre>
+<h4> <span class="mw-headline" id="Scrolled_windows">1.2.1  Scrolled windows </span></h4>
+<p>Widgets (for example, listboxes) will automatically create scrolled windows for you.  You only need to deal with them if you are working with bitmaps.
+</p><p><br>
+</p>
+<h4> <span class="mw-headline" id="XRC">1.2.2  XRC </span></h4>
+<p>How do you use XRC-Files with wxHaskell? Is it possible?
+</p><p><i>- I also very much would like to know this. Anyone?</i>
+</p>
+<dl><dd><i>There isn't a way, but it sounds like it might be a fun library to build</i>
+</dd></dl>
+<h3> <span class="mw-headline" id="Events">1.3  Events </span></h3>
+<p>Events are what joins your widgets to the rest of your code.  Whenever a user manipulates a widget (e.g. presses a button), an event is triggered.
+If you set the appropriate attributes, you can cause these events to call some piece of Haskell code.  In the following example, we set the "on command" attribute to close the frame f.
+</p>
+<pre>hello
+  = do f    &lt;- frame    [text&nbsp;:= "Hello!"]
+       quit &lt;- button f [text&nbsp;:= "Quit", on command&nbsp;:= close f]
+       set f [layout&nbsp;:= widget quit]
+</pre>
+<pre>* <a rel="nofollow" class="external free" href="http://wxhaskell.sourceforge.net/doc/Graphics-UI-WX-Events.html">http://wxhaskell.sourceforge.net/doc/Graphics-UI-WX-Events.html</a>
+</pre>
+<h4> <span class="mw-headline" id="Idle_Event">1.3.1  Idle Event </span></h4>
+<p>Use <a href="https://wiki.haskell.org/WxHaskell/Idle_event" title="WxHaskell/Idle event"> idle event</a> for automation.
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 26/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb_haskell:pcache:idhash:4075-0!*!0!1!en!*!* and timestamp 20151222182357 -->
+</div><div class="printfooter">
+Retrieved from "<a href="https://wiki.haskell.org/index.php?title=WxHaskell/Short_guide&amp;oldid=25425">https://wiki.haskell.org/index.php?title=WxHaskell/Short_guide&amp;oldid=25425</a>"</div>
+			<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://wiki.haskell.org/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="https://wiki.haskell.org/Category:WxHaskell" title="Category:WxHaskell">WxHaskell</a></li></ul></div></div>			<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div></div>
+		<div id="column-one">
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class="generated-sidebar portlet" id="p-navigation">
+		<h5>Navigation</h5>
+		<div class="pBody">
+			<ul>
+				<li id="n-mainpage"><a href="https://wiki.haskell.org/Haskell">Haskell</a></li>
+				<li id="n-portal"><a href="https://wiki.haskell.org/HaskellWiki:Community">Wiki community</a></li>
+				<li id="n-recentchanges"><a href="https://wiki.haskell.org/Special:RecentChanges">Recent changes</a></li>
+				<li id="n-randompage"><a href="https://wiki.haskell.org/Special:Random">Random page</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="https://wiki.haskell.org/Special:WhatLinksHere/WxHaskell/Short_guide">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="https://wiki.haskell.org/Special:RecentChangesLinked/WxHaskell/Short_guide">Related changes</a></li>
+<li id="t-specialpages"><a href="https://wiki.haskell.org/Special:SpecialPages">Special pages</a></li>
+				<li id="t-print"><a href="https://wiki.haskell.org/index.php?title=WxHaskell/Short_guide&amp;printable=yes" rel="alternate">Printable version</a></li>				<li id="t-permalink"><a href="https://wiki.haskell.org/index.php?title=WxHaskell/Short_guide&amp;oldid=25425">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="https://www.mediawiki.org/"><img src="./WxHaskell_Short guide - HaskellWiki_files/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki"></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 1 January 2009, at 10:17.</li>
+					<li id="copyright">Recent content is available under <a href="https://wiki.haskell.org/HaskellWiki:Copyrights" title="HaskellWiki:Copyrights">a simple permissive license</a>.</li>
+					<li id="privacy"><a href="https://wiki.haskell.org/HaskellWiki:Privacy_policy" title="HaskellWiki:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="https://wiki.haskell.org/HaskellWiki:About" title="HaskellWiki:About">About HaskellWiki</a></li>
+					<li id="disclaimer"><a href="https://wiki.haskell.org/HaskellWiki:General_disclaimer" title="HaskellWiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+</div>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready"], null, true);
+}</script><script src="./WxHaskell_Short guide - HaskellWiki_files/load(3).php" type="text/javascript"></script>
+<script src="./WxHaskell_Short guide - HaskellWiki_files/load(4).php"></script>
+<!-- Served in 0.087 secs. --><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15375175-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body></html>
